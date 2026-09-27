@@ -1,0 +1,119 @@
+cd ~/KrevaOS
+
+cat > site/index.html <<'EOF'
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KrevaOS — Gaming Linux</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<header class="navbar">
+    <div class="logo">
+        <span>KREVA</span>OS
+    </div>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#recursos">Recursos</a>
+        <a href="#download">Download</a>
+    </nav>
+</header>
+
+<main>
+
+<section id="inicio" class="hero">
+    <div class="hero-content">
+        <p class="tag">LINUX • GAMING • PERFORMANCE</p>
+
+        <h1>KrevaOS</h1>
+
+        <h2>Seu sistema.<br>Do seu jeito.</h2>
+
+        <p class="description">
+            Um sistema Linux baseado em CachyOS, desenvolvido
+            para jogos, desempenho e personalização.
+        </p>
+
+        <div class="buttons">
+            <a class="button primary" href="#download">Baixar KrevaOS</a>
+            <a class="button secondary" href="#recursos">Conhecer o sistema</a>
+        </div>
+    </div>
+</section>
+
+<section id="recursos" class="features">
+    <div class="section-title">
+        <p class="tag">KREVAOS</p>
+        <h2>Feito para você</h2>
+    </div>
+
+    <div class="feature-grid">
+
+        <article class="feature">
+            <div class="icon">⚡</div>
+            <h3>Performance</h3>
+            <p>
+                Uma base otimizada para entregar uma experiência
+                rápida e responsiva.
+            </p>
+        </article>
+
+        <article class="feature">
+            <div class="icon">🎮</div>
+            <h3>Gaming</h3>
+            <p>
+                Steam, Lutris e outras ferramentas preparadas
+                para sua biblioteca de jogos.
+            </p>
+        </article>
+
+        <article class="feature">
+            <div class="icon">◆</div>
+            <h3>KDE Plasma</h3>
+            <p>
+                Um desktop moderno, poderoso e altamente
+                personalizável.
+            </p>
+        </article>
+
+        <article class="feature">
+            <div class="icon">◈</div>
+            <h3>Personalização</h3>
+            <p>
+                Uma identidade própria para o sistema, com
+                tema e visual desenvolvidos para o KrevaOS.
+            </p>
+        </article>
+
+    </div>
+</section>
+
+<section id="download" class="download">
+    <div>
+        <p class="tag">VERSÃO ATUAL</p>
+        <h2>KrevaOS 0.1.0</h2>
+        <p>
+            A primeira versão do KrevaOS está em desenvolvimento.
+        </p>
+    </div>
+
+    <a class="button primary" href="#">Download ISO</a>
+</section>
+
+</main>
+
+<footer>
+    <p>KrevaOS © 2026</p>
+    <p>Gaming Linux baseado em CachyOS</p>
+</footer>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>
+EOF
