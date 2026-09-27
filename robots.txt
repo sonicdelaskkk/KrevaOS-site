@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sonicdelaskkk.github.io/KrevaOS-site/sitemap.xml
